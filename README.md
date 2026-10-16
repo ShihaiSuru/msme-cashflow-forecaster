@@ -1,16 +1,17 @@
 # MSME Cash Flow Forecaster
 
-Simple Python tool to forecast short-term cash flow for Indian MSMEs.
+Simple + advanced financial modeling tools for Indian MSMEs.
 
-## Problem
-Many small businesses struggle with visibility into upcoming cash gaps.
+## Features
+- Basic cash flow projection
+- NPV and IRR calculations
+- Sensitivity analysis on discount rates
 
 ## Usage
 ```bash
 python cashflow.py
+python financial_modeling.py
 ```
 
-## Features
-- Projects inflows and outflows
-- Highlights potential shortfalls
-- Easy to extend with real data
+## Notes
+Requires `numpy-financial` for advanced functions: `pip install numpy-financial`
